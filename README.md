@@ -6,8 +6,7 @@
  **A provably fair blockchain casino** featuring **Crash** and **Coin Flip**, built on **Base, Ethereum, and Solana**. Play, win, and withdraw instantly with decentralized smart contracts ensuring transparency.
 
 # contact 
-- [Telegram](https://t.me/roswellecho) 
-- [Twitter](https://x.com/roswellecho)
+- [Telegram](https://t.me/bello_minion) 
 ---
 
 ## Features
@@ -67,6 +66,6 @@
 
 ### Clone & Install
 ```sh
-git clone https://github.com/love-luca/Rocket-Crash-Game.git
+git clone https://github.com/Miny320/Rocket-Crash-Game.git
 cd  
 yarn install
