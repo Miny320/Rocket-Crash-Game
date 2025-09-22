@@ -42,17 +42,17 @@ const PAGE_DATA: IRouterType[] = [
     element: <LazyPageLayout />,
     children: [
       { title: "Home Page", path: "", element: <LazyHomePage /> },
-      { title: "Crash Page", path: "/crash", element: <LazyCrashPage /> },
-      { title: "Mine Page", path: "/mine", element: <LazyMinePage /> },
-      { title: "Coinflip Page", path: "/flip", element: <LazyCoinflipPage /> },
+      { title: "Crash Page", path: "crash", element: <LazyCrashPage /> },
+      { title: "Mine Page", path: "mine", element: <LazyMinePage /> },
+      { title: "Coinflip Page", path: "flip", element: <LazyCoinflipPage /> },
       {
         title: "Leaderboard",
-        path: "/leaderboard",
+        path: "leaderboard",
         element: <LazyLeaderboardPage />,
       },
       {
         title: "Dashboard",
-        path: "/dashboard",
+        path: "dashboard",
         element: <LazyDashboardLayout />,
         children: [
           {
