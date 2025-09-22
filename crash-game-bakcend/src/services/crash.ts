@@ -20,7 +20,16 @@ const inverseGrowth = (result: number) =>
   16666.666667 * Math.log(0.01 * result);
 
 const formatPlayerBet = (bet: IBetType): IPendingBetType => {
-  
+  const formatted: IPendingBetType = {
+    playerID: bet.user.id || bet.user._id,
+    betAmount: bet.amount,
+    autoCashOut: bet.multiplier,
+    username: bet.user.username,
+    crypto: bet.crypto,
+    avatar: bet.user.avatar || '',
+    status: bet.status,
+    stoppedAt: null,
+    winningAmount: null
   };
 
   if (bet.status !== BET_STATES.Playing) {
