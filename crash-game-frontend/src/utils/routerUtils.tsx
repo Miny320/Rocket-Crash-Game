@@ -8,7 +8,7 @@ const renderRoutes = (routes: IRouterType[]) => {
   return routes.map(({ title, path, element, children = [] }: IRouterType) => {
     return (
       <Route key={title} path={path} element={element}>
-        {children.length > 0 && <Route>{renderRoutes(children)}</Route>}
+        {children.length > 0 && renderRoutes(children)}
       </Route>
     );
   });
